@@ -1,0 +1,191 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+}
+.nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+.nav a:hover {
+    font-weight: 600;
+}
+.searchbar{
+    display: flex;
+    right: 0px;
+    gap: 15px;
+}
+.searchbar input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+.box1{
+    margin-top: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.feature{
+    width: 60%;
+    height: 30px;
+    background: rgb(233, 209, 69);
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    position: relative;
+    top: -3%;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 4px;
+}
+.box3{
+    margin-top: 10px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.box3 img{
+   width: 100%;
+   height: 100%;
+}
+.box4 img{
+    width: 100%;
+    height: 100%;
+ }
+.box4{
+    margin-top: 10px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.text-box h1{
+    font-size: 90px;
+}
+.text-box button{
+    font-family: "Raleway", sans-serif;
+   width: 170px;
+   height: 40px;
+   background: rgb(40, 37, 37);
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.box-title{
+    margin-top: 30px;
+    padding: 50px;
+}
+.model-detail{
+    padding: 10px;
+}
+.add-to-cart-btn{
+    background: rgb(40, 37, 37);
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+.add-to-cart-btn:hover{
+    border: 1px solid rgb(40, 37, 37);
+    background: #fff;
+    color: rgb(40, 37, 37);
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 600px;
+}
+.template{
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.template img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.speaker-banner{
+    margin: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+footer{
+    margin-top: 50px;
+    margin: 30px;
+    padding: 30px;
+    background: rgb(212, 227, 240);
+    color:black;
+}
+.footer1{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.company{
+    display: inline;
+    in
+}
+.subscribe input{
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
